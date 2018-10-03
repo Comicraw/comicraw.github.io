@@ -1,0 +1,17 @@
+:root {
+    --orange: #f98500;
+    /*This will allow you to just type "--orange"*/
+    --teal: #42f47a;
+    --purple: #6e41f4;
+    --redorange: #f44141;
+    --yelloworange: #f4bb41;
+    --limegreen: #43ff19;
+    --blue: #1833ff;
+    --lightpurple: #dc18ff;
+    --pink: #ff18a6;
+    --skyblue: #9eccff;
+    --parchment: #FBEC97;
+    --font1: 'Libre Baskerville', serif;
+    --font2: 'Averia Serif Libre', cursive;
+    --font3: 'Alegreya', serif;
+}

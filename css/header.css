@@ -1,0 +1,15 @@
+.jumbotron {
+    color: white;
+    height: 950px;
+    text-align: center;
+    font-family: var(--font2);
+    background: url(../assets/img/backround1.jpg) no-repeat fixed top center;
+    background-size: cover;
+    padding: 400px 0;
+    text-shadow: .2em .2em 1em black;
+}
+
+.hr1 {
+    background-color: white;
+    box-shadow: .2em .2em 1em black;
+}
