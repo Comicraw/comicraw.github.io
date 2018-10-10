@@ -10,13 +10,15 @@
         crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Alegreya|Averia+Serif+Libre|Libre+Baskerville" rel="stylesheet">
     <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/hoverLinks.css">
 </head>
 
 <body>
     <!--Navigation-->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark static">
         <a class="navbar-brand" href="#">Cory Crawford</a>
-        <a class="navbar-brand" href="#">Résumé</a>
+        <a class="navbar-brand" href="https://docs.google.com/document/d/1irZVDcNuw5UwqrysXN96MArsAdzjuLiQwgktazRa3cA/edit?usp=sharing">Resume</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
             aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -24,20 +26,20 @@
 
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mr-auto" id="listStyle">
-                <li class>
+                <li>
                     <a class="nav-link" href="#">Home<span class="sr-only">(current)</span></a>
                 </li>
-                <li class="nav-item">
+                <li>
                     <a class="nav-link" href="#about">About Me</a>
                 </li>
-                <li class="nav-item dropdown">
+                <li class="dropdown">
                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
                         aria-haspopup="true" aria-expanded="false">Projects</a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" href="#Projects">CSS Creature</a>
-                        <a class="dropdown-item" href="#Projects">JavaScript Tutorial Website</a>
-                        <a class="dropdown-item" href="#Projects">Something else here</a>
-                        <a class="dropdown-item" href="#Projects">Something else here</a>
+                        <a href="https://codepen.io/cory-crawford/pen/QVNogw" class="dropdown-item">CSS Creature</a>
+                        <a href="https://comicraw.github.io/tutorialWebsite/" class="dropdown-item">JavaScript Tutorial
+                            Website</a>
+                        <a href="https://wow-api-67ced.firebaseapp.com/" class="dropdown-item">API Website</a>
                     </div>
                 </li>
                 <li class="nav-item">
@@ -52,13 +54,11 @@
     <!--Header-->
     <header>
         <div class="jumbotron" style="background-position: 50% 0px;">
-            <h1 class="display-4">Cory Crawford</h1>
-            <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention
-                to
-                featured content or information.</p>
+            <h1 class="display-3">Cory Crawford</h1>
             <hr class="my-4 hr1">
-            <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
-            <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
+            <p>
+                Aspiring Junior Developer
+            </p>
         </div>
     </header>
     <!--About Section-->
@@ -105,14 +105,41 @@
         </div>
     </section>
     <!--Projects-->
-    <div class="row">
-        <div class="col-4"><a href="https://codepen.io/cory-crawford/pen/QVNogw"><img src="./assets/img/CSS Creature.JPG"
-                    id="projects"></a></div>
-        <div class="col-4"><a href="https://codepen.io/cory-crawford/pen/QVNogw"><img src="./assets/img/CSS Creature.JPG"
-                    id="projects"></a></div>
-        <div class="col-4"><a href="https://codepen.io/cory-crawford/pen/QVNogw"><img src="./assets/img/CSS Creature.JPG"
-                    id="projects"></a></div>
-    </div>
+    <div class="row projectSection">
+        <section class="main">
+            <h1>Projects</h1>
+            <hr>
+            <ul class="ch-grid">
+                <li>
+                    <div class="ch-item">
+                        <div class="ch-info">
+                            <h3>CSS Creature</h3>
+                            <p><a href="https://codepen.io/cory-crawford/pen/QVNogw">View on CodePen</a></p>
+                        </div>
+                        <div class="ch-thumb ch-img-1"></div>
+                    </div>
+                </li>
+                <li>
+                    <div class="ch-item">
+                        <div class="ch-info">
+                            <h3>JS Tutorial Website</h3>
+                            <p><a href="https://comicraw.github.io/tutorialWebsite/">View on Github</a></p>
+                        </div>
+                        <div class="ch-thumb ch-img-2"></div>
+                    </div>
+                </li>
+                <li>
+                    <div class="ch-item">
+                        <div class="ch-info">
+                            <h3>API Website</h3>
+                            <p><a href="https://wow-api-67ced.firebaseapp.com/">View on Firebase</a></p>
+                        </div>
+                        <div class="ch-thumb ch-img-3"></div>
+                    </div>
+                </li>
+            </ul>
+
+        </section>
     </div>
     <section id="contact">
         <div class="container-fluid">

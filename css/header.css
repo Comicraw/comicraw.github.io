@@ -13,3 +13,7 @@
     background-color: white;
     box-shadow: .2em .2em 1em black;
 }
+
+.jumbotron p {
+    font-size: 30px;
+}

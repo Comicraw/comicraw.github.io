@@ -13,19 +13,17 @@ hr {
 	position: relative;
 	background: black;
 	margin: 0 auto;
-	margin-bottom: 30px;
 	border: 0;
 }
 
 .aboutMeText1{
-  margin-left: 100px;
+  margin-left: 145px;
   text-align: left;
 }
 
 .aboutMeText2 {
   margin-right: 100px;
   text-align: left;
-  border-left: solid black 3px;
 }
 
 .selfPortrait {

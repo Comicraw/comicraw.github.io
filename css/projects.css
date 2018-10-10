@@ -1,6 +1,34 @@
+.projectSection {
+  background: url(../assets/img/background2.jpg)no-repeat fixed top center;
+  height: 650px;
+  width: 100%
+}
+
+.main h1 {
+  color: white;
+  text-align: center;
+}
+
 #projects {
-  margin: 50px;
+  margin: 175px;
   border-radius: 50em;;
-  height: 150px;
-  width: 175px;
+  height: 200px;
+  width: 300px;
+}
+
+.main {
+	width: 90%;
+  margin: 0 auto;
+  margin-top: 155px;
+	position: relative;
+}
+
+.projectSection hr {
+	height: 4px;
+	width: 250px;
+	text-align: center;
+	position: relative;
+	background: white;
+	margin: 0 auto;
+	border: 0;
 }
