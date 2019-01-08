@@ -62,6 +62,11 @@
 	z-index: 10;
 }
 
+.ch-img-4 { 
+	background-image: url(../assets/img/stoplight.jpg);
+	z-index: 9;
+}
+
 .ch-info {
 	position: absolute;
 	width: 100%;
